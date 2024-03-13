@@ -16,6 +16,12 @@ Each pair prompt & LLM configuration remembers its own order
 of responses. If a query is called more times than in the previous run,
 then a model is queried again and the result is stored in cached.
 
+## Installation
+
+```commandline
+$ pip install replay_cache
+```
+
 ## Example
 
 ### Without replay cache
